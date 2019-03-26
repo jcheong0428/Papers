@@ -1,39 +1,24 @@
-# Social Brain Hypothesis
-Adolphs R. (2003). Cognitive neuroscience of human social behavior. Nature Reviews Neuroscience, 4, 165-178
+[Bobadilla-Suarez, S., & Love, B. C. (2018). Measures of Neural Similarity. bioRxiv, 439893.](https://www.biorxiv.org/content/early/2018/10/12/439893)
+- Angle measures: Distance correlation, pearson, spearman, cosine
+- Magnitude measures
+  - Non-distributional: minkowski, chebyshev, euclidean, city block
+  - Distributional: Mahalanobis, Bhattacharyya, variation of info
+- Key Assumptions for different distance measures
+  - Key assumption in Pearson correlation: assumes overal voxel activity are normalized and each voxel contributes independently to similarity.
+  - Key assumption in Minkowski: distances in a metric space not vector directions.
+  - Key assumption in Mahalanobis: extends Pearson and Minkowski, assuming distributional pattern of voxel activity is consequential.
+- Method
+  - which metric achieves highest _Spearman correlation_ between a classifier confusion matrix and a _neural similarity_ metric.
+- Key Finding:
+  - optimal neural similarity measure can depend on task or stimuli
+    - For geometric images: Minkowski measures better
+    - For naturalistic image: Mahalanobis measures better
 
-[Brothers,L. (1990). The social brain: A project for integrating primate behavior and neurophysiology in a new domain. Concepts in Neuroscience, 1, 27-51.](https://books.google.com/books?hl=en&lr=&id=nQk5Pv9kf-YC&oi=fnd&pg=PA367&dq=The+social+brain:+A+project+for+integrating+primate+behavior+and+neurophysiology+in+a+new+domain&ots=ry9Y3HCdex&sig=oinllCEv6ao3wYBwaF-b6SBmkeM#v=twopage&q&f=true)
-- social cognition: processing information for accurate perception of disposition & intentions of other individuals.
-- argues that social cognition is a special domain. evolution from olfaction to vision for social communication accompanied increased complexity in social structure; communication of internal state through face and expressions.
-- social knowledge is unique than other knowledge. social knowledge-related impairments in autistic children
-- neurological syndromes that impair social perception
-  - Patient EVR: OFC lesion, lost ability to respond appropriately in social situations.
-  - Capgras syndrome: thinking the person is a imposter
-  - paranoid psychoses: distorted thoughts of other's intentions
-- Humans can experience many diverse affects.
-  - purple is not a combination of feeling red and blue
-  - richness of complex emotions
-    - people often describe emotion "as if I were in such-such situation"
-- Amygdaloid simulations - stimulate emotional memories.
-
-Q. Is there a study where you compare brain representation of emotions from situation described vs label vs facial emotion?
-
-
-Dunbar RIM (1998). The social brain hypothesis.  Evolutionary Anthropology, 6,  178-190.
-
-
-Dunbar RIM, Schultz S. (2007) Evolution in the social brain. Science, 317, 1344-1347.
-- Original idea Byrne and Whiten : Machiavellian Intelligence hypothesis  but  adopted Social Brain Hypothesis because less contentious.
-
-
-## Replication Failures
-[Powell, L. E., Isler, K., & Barton, R. A. (2017). Re-evaluating the link between brain size and behavioural ecology in primates. Proc. R. Soc. B, 284(1865), 20171765.](http://rspb.royalsocietypublishing.org/content/284/1865/20171765)
-
-[DeCasien, A. R., Williams, S. A., & Higham, J. P. (2017). Primate brain size is predicted by diet but not sociality. Nature ecology & evolution, 1(5), 0112.](https://www.nature.com/articles/s41559-017-0112)
-
-Response to replication failures by Dunbar
-[Dunbar, R. I. M., & Shultz, S. (2017). Why are there so many explanations for primate brain evolution?. Phil. Trans. R. Soc. B, 372(1727), 20160244.](http://rstb.royalsocietypublishing.org/content/372/1727/20160244)
-
-[Online network size predicted by gray matter density](http://rspb.royalsocietypublishing.org/content/early/2011/10/12/rspb.2011.1959.short)
+[Chen, C., Crivelli, C., Garrod, O. G., Schyns, P. G., Fernández-Dols, J. M., & Jack, R. E. (2018). Distinct facial expressions represent pain and pleasure across cultures. Proceedings of the National Academy of Sciences, 201807862.](http://www.pnas.org/content/early/2018/10/03/1807862115)
+- refutes the theory that pain and orgasmic faces are indistinguishable ([Aviezer, Trope, & Todorov 2012](http://science.sciencemag.org/content/338/6111/1225))
+- using reverse correlation method from the Philip Schyns group, authors show that pain and orgasm faces are actually distinct in two cultures (west and east)
+- seven temporal parameters: onset latency, acceleration, peak amplitude, peak latency, sustainment, deceleration, offset latency.
+- key result: pain is similar between cultures but orgasm shows more differences.
 
 # Emotion Convergence & social connection
 [Anderson, C., Keltner, D., & John, O. P. (2003). Emotional convergence between people over time. Journal of personality and social psychology, 84(5), 1054.](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.320.1184&rep=rep1&type=pdf)
